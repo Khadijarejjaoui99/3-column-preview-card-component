@@ -88,39 +88,44 @@ button {
 .firstCard__btnContainer > button {
   color: hsl(31, 77%, 52%);
   border: none;
+  border: transparent;
 }
 .firstCard__btnContainer > button:hover {
+  border: 2px solid white;
+  transition: ease 0.3s;
   background: hsl(31, 77%, 52%);
   color: white;
-  border: 2px solid white;
 }
 .secondCard__btnContainer > button {
   color: hsl(184, 100%, 22%);
   border: none;
+  border: transparent;
 }
 .secondCard__btnContainer > button:hover {
   background: hsl(184, 100%, 22%);
   color: white;
   border: 2px solid white;
+  transition: ease 0.3s;
 }
 
 .thirdCard__btnContainer > button {
   color: hsl(179, 100%, 13%);
-  border: none;
+  border: transparent;
 }
 .thirdCard__btnContainer > button:hover {
   background: hsl(179, 100%, 13%);
   color: white;
   border: 2px solid white;
+  transition: ease 0.3s;
 }
-.attribution {
+.footer {
   font-size: 15px;
   font-family: Lexend Deca;
   font-weight: 300;
   position: absolute;
   bottom: 10px;
 }
-.attribution > a {
+.footer > a {
   color: hsl(228, 83%, 14%);
 }
 @media (max-width: 950px) {
